@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar Section */
+.navbar{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 555;
+}
+
+.navbar-lg, .bg-light {
+    background-color: whitesmoke !important;
+}
+
+.img-fluid{
+    border-radius: 100%;
+}
+.nav-link{
+    color: rgb(201, 64, 64) !important;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    background-color: rgb(201, 64, 64) !important;
+    color: #fff !important;
+    height: 100%;
+}
+
+.btn.btn-default{
+    background-color: rgb(201, 64, 64);
+    border-radius: 5px;
+    padding: 7px 15px !important;
+    font-size: 18px;
+    width: 150px;
+    color: #fff !important;
+}
+
+.btn.btn-default:hover {
+    background-color: rgb(247, 103, 103) !important;
+}
+
+/* Slide Section */
+.carousel-inner{
+    height: 100%;
+}
+
+
+/* Assurance Section */
+.rad {
+    border-radius: 100%;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    padding: 35%;
+    border: 2px solid rgb(247, 103, 103);
+}
+
+.fas{
+    color: rgb(247, 103, 103);
+}
+
+.assurance{
+    padding: 3% 0;
+    background-color: rgb(243, 243, 243) !important;
+}
+.psize {
+    font-size: 13px;
+}
+
+/* Bae Special */
+.baeSpecial{
+    margin: 5%;
+    padding-left: 3%;
+}
+
+.word{
+    background-color: rgb(247, 103, 103) !important;
+    color: #fff;
+    padding-top: 10%;
+}
+
+.shop{
+    background-color: rgb(218, 84, 84) !important;
+    border-radius: 5px;
+    padding: 9px 17px !important;
+    font-size: 23px;
+    width: 160px;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.shop:hover{
+    background-color: rgb(189, 40, 40) !important;;
+}
+
+/* Super Combo */
+.comSpecial{
+    margin: 10% 5% ;
+    padding-left: 3%;
+}
+
+.word1{
+    background-color: #fff !important;
+    color: rgb(247, 103, 103);
+    padding-top: 10%;
+}
+
+.shop1{
+    background-color: rgb(218, 84, 84) !important;
+    border-radius: 5px;
+    padding: 9px 17px !important;
+    font-size: 23px;
+    width: 160px;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.shop1:hover{
+    background-color: rgb(189, 40, 40) !important;;
+}
+
+/* Product listing */
+
+.second{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.card-img-overlay{
+    margin-top: 20%;
+}
+
+.card-img{
+    transition: transform 2s ease-out ;
+}
+.card-img:hover{
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+.footer{
+    background-color: rgb(243, 243, 243) !important;
+    margin-top: 10%;
+    padding-top: 10px;
+}
+.subFooter{
+    padding-top: 20px;
+}
+
+.year{
+    padding: 2% 0;
+    font-size: 20px;
+    color: rgb(247, 103, 103);
+}
+
+.fab{
+    color: rgb(247, 103, 103);
+    margin: 0 10px;
+}
+
+
+/* Order Page */
+.line{
+    margin: 20px 0;
+}
+
+.btn.btn-primary{
+    background-color: rgb(218, 84, 84) !important;
+    border-radius: 5px;
+    padding: 7px 15px !important;
+    font-size: 20px;
+    width: 160px;
+    color: #fff !important;
+    text-decoration: none !important;
+    border: none;
+}
+
+
+/* About Section */
+
+.about{
+    margin: 5% 0;
+}
+
+.head {
+    font-size: 35px;
+    color: rgb(247, 103, 103) !important;
+}
+
+.para{
+    font-size: 20px;
+}
+
+.card-deck{
+    margin: 3% 0;
+}
+
+/* Contact Page */
+.contact{
+    margin-top: 10%;
+}
+.back{
+    background-color: rgb(218, 84, 84) !important;
+    padding-top: 10%;
+    color: #fff !important;
+}
